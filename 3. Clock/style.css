@@ -101,4 +101,5 @@ img {
     background-color: goldenrod;
     transform: rotate(250deg);
     z-index: 5;
+    width: 3px;
 }
