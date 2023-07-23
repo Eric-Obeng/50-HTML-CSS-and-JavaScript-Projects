@@ -15,9 +15,9 @@ body {
     width: 200px;
     height: 200px;
     padding-right: 55px;
-
     transform-style: preserve-3d;
     transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.7s;
 }
 
 .image-container span {
@@ -38,7 +38,8 @@ body {
 
 .btn-container {
     position: relative;
-    width: 80%;
+    width: 50%;
+    text-align: center;
 }
 
 .btn {
